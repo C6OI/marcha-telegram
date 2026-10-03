@@ -1,0 +1,9 @@
+[server]
+url = "http://127.0.0.1:5049"
+
+[database.pool]
+user = "marcha-telegram"
+password = "marcha-telegram"
+host = "localhost"
+dbname = "marcha-telegram"
+port = 5432

@@ -1,0 +1,13 @@
+# IDEs
+.idea
+.vscode
+
+# Build artifacts
+target
+
+# Local configuration
+config/local.*
+migrations/*.local.sql
+
+# Runtime files
+logs

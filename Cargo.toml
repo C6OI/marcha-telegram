@@ -1,0 +1,22 @@
+[package]
+name = "marcha-telegram"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+markovchain-client-lib = { git = "https://github.com/C6OI/markovchain-client-lib.git" }
+anyhow = "1.0.104"
+url = "2.5.8"
+#teloxide = { git = "https://github.com/Mar2ianen/teloxide-fork.git", features = ["macros", "throttle", "cache-me"] }
+teloxide = { git = "https://github.com/teloxide/teloxide.git", features = ["macros", "throttle", "cache-me"] }
+config = "0.15.27"
+serde = { version = "1.0.229", features = ["derive"] }
+tokio = { version = "1.53.2", features = ["full"] }
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.23", features = ["env-filter", "json"] }
+tracing-appender = "0.2.5"
+tokio-postgres = "0.7.18"
+deadpool-postgres = { version = "0.14.2", features = ["serde"] }
+rand = "0.10.3"
+tokio-util = "0.7.19"
+ringbuffer = "0.16.0"
